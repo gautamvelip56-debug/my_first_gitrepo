@@ -14,8 +14,8 @@ body{
     color:white;
     background-color: black;
     position: absolute;
-    top:300px;
-    left:700px;
+    top:200px;
+    left:500px;
     height: 400px;
     width: 300px;
     border: solid 4px rgb(59, 55, 55);
@@ -52,4 +52,31 @@ input {
     border: solid 2px rgb(46, 42, 42);
     height: 30px;
     width: 260px;
+}
+.con{
+    color:blue;
+    border-radius: 2px;
+    width: 100px;
+    position: absolute;
+    top: 625px;
+    left:500px;
+    border: solid 4px rgb(59, 55, 55);
+}
+.con1{
+    color:blue;
+    border-radius: 2px;
+    width: 100px;
+    position: absolute;
+    top: 625px;
+    left:600px;
+    border: solid 4px rgb(59, 55, 55);
+}
+.con2{
+    color:blue;
+    border-radius: 2px;
+    width: 100px;
+    position: absolute;
+    top: 625px;
+    left:700px;
+    border: solid 4px rgb(59, 55, 55);
 }

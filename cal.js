@@ -18,6 +18,33 @@ buttons.forEach(button =>{
             }
 
         }
+        else if (buttonText=== 'BIN') {
+            try{
+                let num = parseInt(inputBox.value);
+                inputBox.value = num.toString(2);
+            }
+            catch{
+                inputBox.value = 'error';
+            }
+        }
+        else if (buttonText=== 'HEX') {
+            try{
+                let num = parseInt(inputBox.value);
+                inputBox.value = num.toString(16);
+            }
+            catch{
+                inputBox.value = 'error';
+            }
+        }
+        else if (buttonText=== 'OCT') {
+            try{
+                let num = parseInt(inputBox.value);
+                inputBox.value = num.toString(8);
+            }
+            catch{
+                inputBox.value = 'error';
+            }
+        }
         else {
             inputBox.value += buttonText;
         }
